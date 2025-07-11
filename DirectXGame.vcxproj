@@ -187,8 +187,10 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClCompile Include="Application\GameObject\Dev\DevActor\DevActor.cpp" />
     <ClCompile Include="Application\GameObject\Dev\DummyParticle\DummyParticle.cpp" />
     <ClCompile Include="Application\GameObject\TimeGame\TimeGame.cpp" />
+    <ClCompile Include="Application\GameObject\utile\utile.cpp" />
     <ClCompile Include="Application\Scene\DevScene\DevScene.cpp" />
     <ClCompile Include="Application\Scene\TimeGameScene\TimeGameScene.cpp" />
+    <ClCompile Include="Application\GameObject\Client\Client.cpp" />
     <ClCompile Include="Engine\Graphics\2D\SpriteResource\SpriteResource.cpp" />
     <ClCompile Include="Engine\Graphics\2D\Sprite\Sprite.cpp" />
     <ClCompile Include="Engine\Graphics\2D\Structure\SpriteStructure.cpp" />
@@ -439,9 +441,11 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClInclude Include="Application\GameObject\Dev\DevActor\Rend\DevRenderComponent.h" />
     <ClInclude Include="Application\GameObject\Dev\DummyParticle\DummyParticle.h" />
     <ClInclude Include="Application\GameObject\TimeGame\TimeGame.h" />
+    <ClInclude Include="Application\GameObject\utile\utile.h" />
     <ClInclude Include="Application\Scene\DevScene\DevScene.h" />
     <ClInclude Include="Application\Scene\TimeGameScene\TimeGameScene.h" />
     <ClInclude Include="Application\System\Camera\Interface\ICamera.h" />
+    <ClInclude Include="Application\GameObject\Client\Client.h" />
     <ClInclude Include="Engine\Graphics\2D\SpriteResource\SpriteResource.h" />
     <ClInclude Include="Engine\Graphics\2D\Sprite\Sprite.h" />
     <ClInclude Include="Engine\Graphics\2D\Structure\SpriteStructure.h" />

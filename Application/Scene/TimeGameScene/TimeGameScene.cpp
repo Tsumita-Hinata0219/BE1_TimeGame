@@ -54,3 +54,4 @@ void TimeGameScene::ModelDraw()
 void TimeGameScene::FrontSpriteDraw()
 {
 }
+

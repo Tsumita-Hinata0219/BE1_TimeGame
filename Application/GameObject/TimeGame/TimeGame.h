@@ -1,6 +1,13 @@
 #pragma once
-
+#include <cmath>
+#include <string>
+#include <sstream>
+#include <iomanip>
+#include <imgui.h>
+#include <future>
 #include "../GameObject.h"
+
+#include "../Client/Client.h"
 
 class TimeGame {
 
@@ -43,5 +50,14 @@ private:
 	bool hasStopped_ = false;
 	int score_ = 0;
 
+
+	// 非同期処理管理
+	bool scoreSent_ = false;   
+	bool fetchingRankingAfterPost_ = false;
+	std::future<std::string> postScoreFuture_;
+	std::future<std::string> getScoresFuture_;
+
+	std::string rankingText_;         
+	bool rankingFetched_ = false;      
 };
 
