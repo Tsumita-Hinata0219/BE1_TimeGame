@@ -437,6 +437,8 @@
     <ClCompile Include="Engine\Graphics\RenderSystem\State\RenderState .cpp" />
     <ClCompile Include="Engine\Graphics\ShaderManager\ShaderManager.cpp" />
     <ClCompile Include="Engine\Resource\Allocator\DescriptorAllocator.cpp" />
+    <ClCompile Include="Application\Scene\TimeGameScene\TimeGameScene.cpp" />
+    <ClCompile Include="Application\GameObject\TimeGame\TimeGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application\System\GameManager\GameManager.h">
@@ -1192,6 +1194,8 @@
     <ClInclude Include="Engine\Graphics\ShaderManager\ShaderManager.h" />
     <ClInclude Include="Engine\Resources\Frame\FrameResource.h" />
     <ClInclude Include="Engine\Resource\Allocator\DescriptorAllocator.h" />
+    <ClInclude Include="Application\Scene\TimeGameScene\TimeGameScene.h" />
+    <ClInclude Include="Application\GameObject\TimeGame\TimeGame.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Application">

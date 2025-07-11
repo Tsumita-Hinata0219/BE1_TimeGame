@@ -17,6 +17,8 @@
 #include "Scene/TitleScene/TitleScene.h"
 #include "Scene/GameScene/GameScene.h"
 
+#include "Scene/TimeGameScene/TimeGameScene.h"
+
 
 
 // グローバル変数の定義

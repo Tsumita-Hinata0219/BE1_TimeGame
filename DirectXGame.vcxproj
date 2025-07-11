@@ -208,7 +208,9 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClCompile Include="Application\GameObject\Others\PauseManager\Renderer\PauseRenderer.cpp" />
     <ClCompile Include="Application\GameObject\Others\TitleUIManager\StageSelectRender\StageSelectRender.cpp" />
     <ClCompile Include="Application\GameObject\Others\TitleUIManager\StageSelect\StageSelect.cpp" />
+    <ClCompile Include="Application\GameObject\TimeGame\TimeGame.cpp" />
     <ClCompile Include="Application\Scene\DevScene\DevScene.cpp" />
+    <ClCompile Include="Application\Scene\TimeGameScene\TimeGameScene.cpp" />
     <ClCompile Include="Engine\Graphics\2D\SpriteResource\SpriteResource.cpp" />
     <ClCompile Include="Engine\Graphics\2D\Sprite\Sprite.cpp" />
     <ClCompile Include="Engine\Graphics\2D\Structure\SpriteStructure.cpp" />
@@ -534,7 +536,9 @@ copy "$(WindowsSdkDir)bin\$(TargetPlatformVersion)\x64\dxil.dll" "$(TargetDir)dx
     <ClInclude Include="Application\GameObject\Others\PauseManager\Renderer\PauseRenderer.h" />
     <ClInclude Include="Application\GameObject\Others\TitleUIManager\StageSelectRender\StageSelectRender.h" />
     <ClInclude Include="Application\GameObject\Others\TitleUIManager\StageSelect\StageSelect.h" />
+    <ClInclude Include="Application\GameObject\TimeGame\TimeGame.h" />
     <ClInclude Include="Application\Scene\DevScene\DevScene.h" />
+    <ClInclude Include="Application\Scene\TimeGameScene\TimeGameScene.h" />
     <ClInclude Include="Application\System\Camera\Interface\ICamera.h" />
     <ClInclude Include="Engine\Graphics\2D\SpriteResource\SpriteResource.h" />
     <ClInclude Include="Engine\Graphics\2D\Sprite\Sprite.h" />
