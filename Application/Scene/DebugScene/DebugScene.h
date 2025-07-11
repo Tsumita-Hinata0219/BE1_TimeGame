@@ -9,9 +9,7 @@
 
 #include "System/Camera/Manager/CameraManager.h"
 
-#include "GameObject/Terrain/Skydome/Skydome.h"
 #include "Graphics/3D/Skybox/Skybox.h"
-#include "GameObject/Effect/TestPostEffect/TestPostEffect.h"
 
 #include "GameObject/Terrain/Floor/Floor.h"
 #include "GameObject/Dev/DummyParticle/DummyParticle.h"

@@ -3,8 +3,6 @@
 #include "Math/MyMath.h"
 #include "GameObject/GameObject.h"
 
-#include "GameObject/Character/EnemyManager/Property/EnemyProperty.h"
-
 
 /* JsonからよみとるPlayerのデータ */
 struct EntityPlayerData {
@@ -13,8 +11,6 @@ struct EntityPlayerData {
 
 /* JsonからよみとるEnemyのデータ */
 struct EntityEnemyData {
-	enemy::ShotFuncData shotFuncData{};
-	enemy::MovementFuncData movementFuncData{};
 };
 
 
